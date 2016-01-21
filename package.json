@@ -1,0 +1,22 @@
+{
+  "name": "uber-travel",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jianhua Ouy",
+    "email": "ouyang.jianhua@immomo.com"
+  },
+  "description": "Let travel more easy and fast!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartUI/uber-travel.git"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "koa": "^1.1.2",
+    "wechat": "^2.0.3"
+  },
+  "license": "MIT"
+}
