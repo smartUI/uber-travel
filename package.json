@@ -11,12 +11,25 @@
     "url": "git+https://github.com/smartUI/uber-travel.git"
   },
   "scripts": {
-    "start": "node ./app.js"
+    "start": "sudo node --harmony ./app.js"
   },
   "private": true,
   "dependencies": {
+    "config": "^1.19.0",
     "koa": "^1.1.2",
+    "passport-oauth2": "^1.1.2",
+    "redis": "^2.4.2",
     "wechat": "^2.0.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "keywords": [
+    "uber",
+    "travel",
+    "taxi",
+    "hackthon"
+  ],
+  "homepage": "https://github.com/smartUI/uber-travel"
 }

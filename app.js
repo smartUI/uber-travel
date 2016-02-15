@@ -28,4 +28,4 @@ app.use(function *(){
 app.listen(3000);
 
 console.log('start server success');
-console.log('http://localhost:3000');
+console.log('http://localhost:3000','http://uber-travel.com:3000');
