@@ -1,6 +1,8 @@
-# uber-travel
+# Uber-travel
 Make travel better and convenient.
 
-##1、To run app
+how to use this app?
+
+###1、To run app
 - npm install
 - npm start
